@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    
+    background-color: #e94a22;
+    color:rgb(238, 235, 235);
+}
+
+.navbar{
+    background-color:#201c1b;
+    margin: 15px 2px;
+    border-radius:30px;
+    height: 54px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none;
+    padding:5px 10px 5px 9px;
+    margin: 13px 20px;
+    color:rgb(238, 235, 235);
+
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:rgb(238, 235, 235);
+    cursor:pointer;
+
+}
+.navbar li a:hover{
+    color: #e94a22;
+    border-bottom: 2px solid ;
+    border-bottom-color:#e94a22 ;
+    border-radius:30px;
+    height:20px;
+    width:10px;
+
+}
+.search{
+    float:right;
+    padding: 9px 275px;
+    margin: 0px;
+}
+.navbar input{
+    padding: 8px 25px;
+    border-radius: 30px;
+}
+.container{
+    background-color: #f5ad9b;
+    border:2px solid black;
+    height: 300px;
+    width:300px;
+    position:fixed;
+    right: 4px;
+    bottom:3px;
+    border-radius: 8px;
+}
+.header{
+    background-color:#e94a22 ;
+    border-radius: 8px;
+    margin: 3px;
+    padding:4px 3px;
+    color: rgb(31, 16, 16);
+
+}
+.message{
+    background-color: #ec4c24;
+    color:black;
+    padding:10px;
+    margin-left: 3px;;
+    width: fit-content;
+    margin-bottom: 1px;
+    border-radius: 8px;
+}
+.user_message{
+    margin:3px;
+    margin-left: auto;
+    background-color: white;
+}
+.body1{
+       height: 210px;
+}
+.search-txt{
+    color:#e94a22;
+}
+footer form{
+     display:flex;
+     margin:4px;
+     padding:4px 3px;
+     
+}
+form input{
+    height:30px;
+    width: 220px;
+    flex: 1;
+    margin:3px;
+    padding:2px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.btn{
+    width: 60px;
+    background-color:#e94a22 ;
+    color:rgb(8, 5, 3);
+    border-radius: 8px;
+    height:28px;
+}
+.Sell{
+    height:200px;
+    width:100%;
+    padding:30px;
+}
+.adver{
+    width:50%;
+    height:100%;
+    background-color: black;
+    border-radius: 40px;
+}
+.Sell img{  
+    padding: 100px;
+    margin-left: 60%;
+    height:200px;
+    width: 350px;
+    background-size: cover;
+    text-align: left;
+}
